@@ -307,7 +307,7 @@ sendBtn.addEventListener('click', function () {
     // Use FormSubmit.co free service to send email
     const formData = new FormData();
     formData.append('_subject', '💌 New Message from Your Special Once! 💖');
-    formData.append('Message', `${message}\n\n---\n📅 Sent on: ${dateStr}\n⏰ Time: ${timeStr}\n💝 From: Your Valentine's Proposal Website`);
+    formData.append('Message', `${message}\n\n---\n📅 Sent on: ${dateStr}\n⏰ Time: ${timeStr}\n💝 From: Your GiftForVaishuu Website`);
     formData.append('Date', dateStr);
     formData.append('Time', timeStr);
     formData.append('_captcha', 'false');
@@ -406,4 +406,5 @@ document.addEventListener('click', function playOnInteraction() {
     }
     // Remove listener after first interaction
     document.removeEventListener('click', playOnInteraction);
+
 }, { once: true });
